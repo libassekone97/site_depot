@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style4.css">
+    <link rel="stylesheet" href="../static/aside.css">
+    <title>ZORO4</title>
+</head>
+<body>
+    
+    <section>
+        
+        <div class="haut">
+            <h1>ZORO</h1>
+        </div>
+    </section>
+
+    <section>
+        <div class="grand">
+
+        <!-- <div class="gauche"> -->
+
+            {% include './nav.html'  %}
+
+        <!-- </div> -->
+
+        <div class="droite">
+            <h3> Ajouter un nouveau Magasin</h3>
+            <form action="">
+                <label for="Nom">Nom:</label>
+                <input id="nom" type="text">
+                <label for="Adresse" >Adresse:</label>
+                <input id="adresse" type="text">
+                <label for="Téléphone">Téléphone:</label>
+                <input id="Téléphone" type="tel">
+                <label for="email">E-mail:</label>
+                <input id="email" type="email">
+
+                <div class="droit">
+                    <button class="bout"><a href="./templates/index3.html">Retour</a></button>
+                   <button id="bout1" type="submit" ><a href="./templates/index5.html">Valider</a></button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>

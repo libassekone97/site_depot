@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style6.css">
+    <link rel="stylesheet" href="../static/aside.css">
+    <title>ZORO6</title>
+</head>
+<body>
+    
+    <section>
+        
+        {% include './header.html'%}
+        <div class="grand">
+
+        <!-- <div class="gauche"> -->
+
+           {% include './nav.html'  %}
+        <!-- </div> -->
+
+        <div class="droite">
+            <h3>Modifier un magasin </h3>
+            <form action="">
+                <label for="Nom">Nom:</label>
+                <input id="nom" placeholder="Magasin 5" type="text">
+                <label for="Adresse" >Adresse:</label>
+                <input id="adresse" placeholder="Magasin 5"  type="text">
+                <label for="Téléphone">Téléphone:</label>
+                <input id="Téléphone" placeholder="Téléphone M"  type="tel">
+                <label for="email">E-mail:</label>
+                <input id="email" placeholder="E-mail 5"  type="email">
+
+                <div class="droit">
+                    <button class="bout"><a href="./templates/index5.html">Retour</a></button>
+                   <button id="bout1" type="submit" ><a href="./templates/index7.html">Valider</a></button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>

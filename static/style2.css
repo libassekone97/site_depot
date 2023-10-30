@@ -1,0 +1,87 @@
+.header-footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+.Main
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(241, 233, 233);
+}
+.main1
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.main2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.main2-1
+{
+    width:15%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+    flex-direction: column;
+}
+.main2-2
+{  width:100%;
+   height:30%;
+   display: flex;
+   align-items: center;
+   margin-top:10px;
+   flex-direction: column;
+   
+}
+.main2-2 div
+{
+    width: 100%;
+    height:30%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    margin:5px;
+}
+.Centre
+{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: azure;
+}
+.Centre1
+{
+    width:90%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    flex-direction: column;
+}
